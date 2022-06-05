@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travelmoto</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image" href="images/booking-imagee.jpg">
+</head>
+
+<body>
+    <header>
+        <div id="menu-bar" class="fas fa-bars"></div>
+        <a href="#" class="logo"><span>TRAVEL</span>MOTO</a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#book">Book</a>
+            <a href="#packages">Packages</a>
+            <a href="#services">Services</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#review">Review</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="SEARCH HERE...">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+    </header>
+    <div class="login-form-container">
+        <i class="fas fa-times" id="form-close"></i>
+        <form action="">
+            <h3>login</h3>
+            <input type="email" class="box" placeholder="enter your email">
+            <input type="password" class="box" placeholder="enter your password">
+            <input type="submit" value="login now" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">remember me</label>
+            <p>forget password? <a href="#">click here</a></p>
+            <p>don't have and account? <a href="#">register now</a></p>
+        </form>
+    </div>
+    <section class="home" id="home">
+        <div class="content">
+            <h3>CREATE NEW MEMORIES AND EXPERIENCES</h3>
+            <p>Disover new things with us Travelmoto </p>
+            <!-- <a href="#" class="btn">discover more</a> -->
+        </div>
+        <div class="controls">
+            <span class="vid-btn active" data-src="images/vid-3.mp4"></span>
+            <span class="vid-btn" data-src="images/vid-2.mp4"></span>
+            <span class="vid-btn" data-src="images/vid-1.mp4"></span>
+            <span class="vid-btn" data-src="images/vid-4.mp4"></span>
+            <span class="vid-btn" data-src="images/vid-5.mp4"></span>
+        </div>
+        <div class="video-container">
+            <video src="images/vid-1.mp4" id="video-slider" loop autoplay muted></video>
+        </div>
+    </section>
+    <section class="book" id="book">
+        <h1 class="heading">
+            <span>b</span>
+            <span>o</span>
+            <span>o</span>
+            <span>k</span>
+            <span class="space"></span>
+            <span>n</span>
+            <span>o</span>
+            <span>w</span>
+        </h1>
+        <div class="row">
+            <div class="image">
+                <img src="images/booking-imagee.jpg" alt="">
+            </div>
+            <form action="">
+                <div class="inputBox">
+                    <h3>Where to go</h3>
+                    <input type="text" placeholder="Place Location">
+                </div>
+                <div class="inputBox">
+                    <h3>How many guests</h3>
+                    <input type="number" placeholder="Number of Pax">
+                </div>
+                <div class="inputBox">
+                    <h3>Arrival Date</h3>
+                    <input type="date">
+                </div>
+                <div class="inputBox">
+                    <h3>Departure Date</h3>
+                    <input type="date">
+                </div>
+                <input type="submit" class="btn" value="book now">
+            </form>
+        </div>
+    </section>
+
+    <section class="packages" id="packages">
+        <h1 class="heading">
+            <span>p</span>
+            <span>a</span>
+            <span>c</span>
+            <span>k</span>
+            <span>a</span>
+            <span>g</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="images/p-1.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i>White Beach, Boracay</h3>
+                    <p>This is the most populous beach on the island but where you will find ample opportunities for boating and other water sports. It's also one of the most beautiful beaches in Asia. Plenty of chairs and hammocks are beneath the palm trees,
+                        so you can relax and enjoy the pure white sand. You can even book a beachside massage. Snorkeling is a popular activity at White Beach, but if you do not want to put in so much work, take a banana boat ride or book a trip on a
+                        glass-bottom boat.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> ₱9000.00 <span> ₱12000.00</span> </div>
+                    <a href="#" class="btn">Book Now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/p-2.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Manila Historical Sightseeing Tour </h3>
+                    <p>Manila is an exciting and vibrant city that is a thriving metropolis surrounded by centuries-old churches and colonial history. It is easy to walk around Manila on your own, or take a guided sightseeing tour of the oldest district,
+                        the Intramuros or walled city, where you'll find some of the most significant tourist attractions and important landmarks and monuments.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> ₱5000.00 <span> ₱7000.00</span> </div>
+                    <a href="#" class="btn">Book Now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/p-3.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Shipwreck Diving, Coron </h3>
+                    <p>The sunken ships to explore on Sangat Island in Coron are some of the best diving sites in the world. The wrecks are at varied depths that are suitable for both deep water scuba divers and shallow water snorkeling.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> ₱8000.00 <span> ₱10000.00</span> </div>
+                    <a href="#" class="btn">Book Now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/p-4.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Underground River Tour, Puerto Princesa </h3>
+                    <p>Taking a river tour of the Underground River in Puerto Princesa is one of the most awe-inspiring things to do in the Philippines. The underground river on Palawan Island is inside the Subterranean River National Park, a UNESCO World
+                        Heritage site.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> ₱8500.00 <span> ₱10000.00</span> </div>
+                    <a href="#" class="btn">Book Now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/p-5.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Island Hopping </h3>
+                    <p>You can sample snorkeling, swimming, sightseeing, and dining on local food in multiple locations and eliminate the hassle of trying to plan it on your own. Many of the island hopping tours span several days. One of the most popular
+                        island-hopping tours is to the Caramoan Islands, which were made famous after being featured on the hit TV show Survivor.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> ₱8800.00 <span> ₱10000.00</span> </div>
+                    <a href="#" class="btn">Book Now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/p-6.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Sugba Lagoon, Siargao </h3>
+                    <p>There are so many iconic lagoons in the Philippines that have movie-set quality tranquil blue waters below a towering cliffside, but one of the most spectacular is Sugba Lagoon on the island of Siargao. The lagoon is perfect for just
+                        basking in the natural, peaceful surroundings, but there are plenty of activities, too, if you want a more adventurous day.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> ₱8900.00 <span> ₱10000.00</span> </div>
+                    <a href="#" class="btn">Book Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h1 class="heading">
+            <span>s</span>
+            <span>e</span>
+            <span>r</span>
+            <span>v</span>
+            <span>i</span>
+            <span>c</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-hotel"></i>
+                <h3>Affordable Hotels</h3>
+                <p>Clean and affordable hotel accomodations for you and your family.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-utensils"></i>
+                <h3>Food and Drinks</h3>
+                <p>Delicious and yummy food for you and your famaliy to eat and enjoy.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-bullhorn"></i>
+                <h3>Safety Guide</h3>
+                <p>All staffs are all fully vaccinated, and we follow the proper social distancing and covid 19-protocols.</p>
+            </div>
+            <!-- <div class="box">
+                <i class="fas fa-globe-asia"></i>
+                <h3>around the world</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore commodi earum, quis voluptate exercitationem ut minima itaque iusto ipsum corrupti!</p>
+            </div> -->
+            <div class="box">
+                <i class="fas fa-plane"></i>
+                <h3>Fastest Travel</h3>
+                <p>Convenient and Fast Booking experience for you and your family.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-hiking"></i>
+                <h3>Adventures</h3>
+                <p>Plenty of activities to do and enjoy with your loved ones or family.</p>
+            </div>
+        </div>
+
+    </section>
+    <section class="gallery" id="gallery">
+        <h1 class="heading">
+            <span>g</span>
+            <span>a</span>
+            <span>l</span>
+            <span>l</span>
+            <span>e</span>
+            <span>r</span>
+            <span>y</span>
+        </h1>
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/g-1.jpg" alt="">
+                <div class="content">
+                    <h3>Kayangan Lake</h3>
+                    <p>Kayangan Lake is bordered by tall limestone formations and if you want a view of the entire place.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/g-2.jpg" alt="">
+                <div class="content">
+                    <h3>Banaue Rice Terraces</h3>
+                    <p>The Banaue Rice Terraces, locally known as the Hagdan-Hagdang Palayan, are undoubtedly a source of pride for all Filipinos across the world.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/g-3.jpg" alt="">
+                <div class="content">
+                    <h3>El Nido</h3>
+                    <p>Unsurprisingly, El Nido always makes it to the top list of beautiful places in the Philippines. Don’t miss the Big and Small Lagoons.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/g-4.jpg" alt="">
+                <div class="content">
+                    <h3>Racuh A Payaman</h3>
+                    <p>At Racuh A Payaman, also known as Marlboro Hills, there are rolling hills and knolls everywhere, surrounded by a carpet of the greenest grass you’ll ever see.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/g-5.jpg" alt="">
+                <div class="content">
+                    <h3>Intramuros</h3>
+                    <p>Known as the “Walled City,” Intramuros is a place rich in history and culture.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/g-6.jpg" alt="">
+                <div class="content">
+                    <h3>Vigan</h3>
+                    <p>Visiting Vigan is like traveling back in time because of its preserved Spanish Colonial town that even the world considers as one of the best.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/g-7.jpg" alt="">
+                <div class="content">
+                    <h3>Tinipak River</h3>
+                    <p>Just two hours away from Manila, you’ll discover a rocky paradise that will make your jaw drop.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/g-8.jpg" alt="">
+                <div class="content">
+                    <h3>Cambugahay Falls</h3>
+                    <p>Located at the town of Lazi, Cambugahay Falls is considered one of the most beautiful waterfalls in the Philippines.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/g-9.jpg" alt="">
+                <div class="content">
+                    <h3>Island Garden</h3>
+                    <p>If you’re craving the sun, sand, and sea, a perfect tourist destination in Mindanao to check out is the Island Garden City of Samal. </p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="review" id="review">
+        <h1 class="heading">
+            <span>r</span>
+            <span>e</span>
+            <span>v</span>
+            <span>i</span>
+            <span>e</span>
+            <span>w</span>
+        </h1>
+        <div class="swiper-container review-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/girl.png" alt="">
+                        <h3>Rachel</h3>
+                        <p>User friendly website, easy to navigate and use. Many affordable promos to choose from.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/girl.png" alt="">
+                        <h3>Samantha</h3>
+                        <p>Satisfied Customer!!</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/boy.png" alt="">
+                        <h3>John</h3>
+                        <p>Thumbs up! Very Good accomodation.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/girl.png" alt="">
+                        <h3>Michelle</h3>
+                        <p>Will travel again using this app. Very easy to book and travel!!</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <h1 class="heading">
+            <span>c</span>
+            <span>o</span>
+            <span>n</span>
+            <span>t</span>
+            <span>a</span>
+            <span>c</span>
+            <span>t</span>
+        </h1>
+        <div class="row">
+            <div class="image">
+                <img src="images/contact-us.png" alt="">
+            </div>
+            <form action="">
+                <div class="inputBox">
+                    <input type="text" placeholder="Subject">
+                    <input type="text" placeholder="Name">
+
+                </div>
+                <div class="inputBox">
+                    <input type="email" placeholder="Email">
+                    <input type="number" placeholder="Number">
+
+                </div>
+                <textarea placeholder="Message" name="" id="" cols="30" rows="10"></textarea>
+                <input type="submit" class="btn" value="send message">
+            </form>
+        </div>
+    </section>
+    <!-- <section class="brand-container">
+        <div class="swiper-container brand-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="images/1.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/2.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/3.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/4.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/5.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/6.jpg" alt=""></div>
+            </div>
+        </div>
+    </section> -->
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>About Us</h3>
+                <p>Travelmoto is a website application created to make travel and booking convenient to many people.</p>
+            </div>
+            <div class="box">
+                <h3>Branch Locations</h3>
+                <a href="#">Philippines</a>
+
+            </div>
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#">Home</a>
+                <a href="#">Book</a>
+                <a href="#">Packages</a>
+                <a href="#">Services</a>
+                <a href="#">Gallery</a>
+                <a href="#">Review</a>
+                <a href="#">Contact</a>
+            </div>
+            <div class="box">
+                <h3>Follow Us</h3>
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+                <a href="#">Linkedin</a>
+            </div>
+
+        </div>
+
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script src="script.js"></script>
+</body>
+
+</html>
